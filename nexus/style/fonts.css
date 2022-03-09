@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Overpass';
+    src: url('fonts/Overpass-Regular.ttf') format('truetype');  
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OverpassBold';
+    src: url('fonts/Overpass-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-style: normal;
+}

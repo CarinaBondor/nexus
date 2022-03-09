@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarDealer UK</title>
+    
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--normalize-->
+    <link rel="stylesheet" type="text/css" href="style/normalize.css" >
+    <!--fonts-->
+    <link rel="stylesheet" type="text/css" href="style/fonts.css" >
+    <!--stylesheet swiper-->
+    <link rel="stylesheet" type="text/css" href="style/swiper.css" >
+    <!--stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style/style.css" >
+    <!--js-->
+    <script src="js/main.js"></script>
+    <!--swiper-->
+    <script src="js/swiper.js"></script>
+    <!-- shuffle
+    <script src="js/shuffle.js"></script> -->
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/bf10140cae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="w-1440">
+            <div class="inside flex-container align-items-center justify-content-space-between">
+                <a class="logo-header flex-container align-items-center" href="#" title="title text">
+                    <img src="src/logo placeholder dark.svg" alt="alt text" title="logo">
+                </a> 
+                <div class="user-saved-recent flex-container align-items-center">
+                    <div class="saved">
+                        <i class="far fa-star"></i>
+                        <span>0</span>
+                    </div>
+                    <div class="recent has-recent">
+                        <i class="fas fa-history"></i>
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="menu-wrapper flex-container justify-content-end ">
+                    <div class="menu flex-container align-items-center">
+                        <ul class="flex-container align-items-center">
+                            <li class="flex-container align-items-center">
+                                <a href="#" title="Home">Home</a>
+                            </li>
+                            <li class="active flex-container align-items-center">
+                                <a href="#" title="Our cars">Our cars</a>
+                            </li>
+                            <li class="flex-container align-items-center">
+                                <a href="#" title="Sell your car">Sell your car</a>
+                            </li>
+                            <li class="flex-container align-items-center">
+                                <a href="#" title="Apply for finance">Apply for finance</a>
+                            </li>
+                            <li class="flex-container align-items-center">
+                                <a href="#" title="About us">About us</a>
+                            </li>
+                            <li class="flex-container align-items-center">
+                                <a href="#" title="Blog">Blog</a>
+                            </li>
+                            <li class="flex-container align-items-center">
+                                <a href="#" title="Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-buttons-full">
+                    <a href="mailto:enquiries@cardealer.uk" title="Email us" class="cta header" title="Email us">Email us</a>
+                    <a href="callto:+01234 567890" title="Call us" class="cta header" title="Call us">Call us</a>
+                </div>
+                <div class="header-buttons-responsive">
+                    <a href="mailto:enquiries@cardealer.uk" title="Email us" class="cta header" title="Email us">Email</a>
+                    <a href="callto:+01234 567890" title="Call us" class="cta header" title="Call us">Call</a>
+                </div>
+                <button type="button" class="nav-trigger pic-holder">
+                    <span>Menu</span>
+                    <img src="src/nav and forms.svg" alt="nav button" >
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="module splash dark2-bg">
+        <div class="w-1440">
+            <div class="inside flex-container flex-wrap justify-content-space-between">
+                <div class="inside w-20">
+                    <h3>Finance a new or used car</h3>
+                    <p>Adjust the options to find the finance arrangement that suits you.</p>
+                </div>
+                <div class="inside w-70 splash-filters flex-container justify-content-space-between align-items-center">
+                    <div class="module sorting filters">
+                        <div class="w-100 inside">
+                            <span>Deposit</span>
+                            <details>
+                                <summary>Sort</summary>
+                                <ul>
+                                    <li>Lowest price</li>
+                                    <li>Highest price</li>
+                                    <li>Popular</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="module sorting filters">
+                        <div class="w-100 inside">
+                            <span>Mileage</span>
+                            <details>
+                                <summary>Sort</summary>
+                                <ul>
+                                    <li>Lowest price</li>
+                                    <li>Highest price</li>
+                                    <li>Popular</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="module sorting filters">
+                        <div class="w-100 inside">
+                            <span>Period</span>
+                            <details>
+                                <summary>Sort</summary>
+                                <ul>
+                                    <li>Lowest price</li>
+                                    <li>Highest price</li>
+                                    <li>Popular</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="module sorting filters">
+                        <div class="w-100 inside">
+                            <span>Budget</span>
+                            <details>
+                                <summary>Sort</summary>
+                                <ul>
+                                    <li>Lowest price</li>
+                                    <li>Highest price</li>
+                                    <li>Popular</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="inside">
+        <div class="w-1440">
+            <div class="inside">
+                <div class="module sidebar w-20 ">
+                    <div class="sidebar-top inside flex-container flex-wrap justify-content-space-between align-items-center">
+                        <h3>Filters</h3>
+                        <button class="cta reset-filters">Reset</button>
+                    </div>
+                    
+                    <section class="inside filter-individ">
+                        <h3>Brand</h3>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Make</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <div class="inside add-filter disabled">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Model</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                    </section>
+                    <section >
+                        <h3>Budget</h3>
+                        <div class="inside add-filter filter-added">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Min. price</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="inside filter-active w-auto flex-container flex-wrap align-items-center">
+                                <span class="filter-label">£5,000 </span>
+                                <i class="fas fa-minus"></i>
+                            </div>
+                        </div>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Max. price</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <h3>Specification</h3>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Fuel type</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Body type</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Transmission</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Engine size</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Mileage</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Colour</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Doors</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Seats</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <div class="inside add-filter">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <span class="filter-label">Features</span>
+                                <span class="add"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+                <div class="module main-cards w-80">
+                    <div class="module nav-cards">
+                        <div class="w-100">
+                            <div class="inside flex-container flex-wrap justify-content-space-between ">
+                                <div class="module showing">
+                                    <h3>Showing <span>339</span> cars</h3>
+                                    <div class="module mini-filters">
+                                        <a href="" class="active">All</a>
+                                        <a href="">Used</a>
+                                        <a href="">New</a>
+                                        <a href="">Offers</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="module sorting">
+                                    <div class="w-100 inside">
+                                        <details>
+                                            <summary>Sort</summary>
+                                            <ul>
+                                                <li>Lowest price</li>
+                                                <li>Highest price</li>
+                                                <li>Popular</li>
+                                            </ul>
+                                        </details>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module cards">
+                        <section class="filters"></section>
+                        <div class="inside flex-container flex-wrap justify-content-space-between">
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">Used</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">32k miles</span>
+                                                <span class="pill stats">Hybrid</span>
+                                                <span class="pill stats">Manual</span>
+                                                <span class="pill stats">SUV</span>   
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2014 (64) Mercedes-Benz</h3>
+                                            <h4 class="info-car-second">CLA 250e Coupe Shooting Break</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <h4 class="full-price">£23,300</h4>
+                                            <!-- <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4> -->
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">New</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">Petrol</span>
+                                                <span class="pill stats">Automatic</span>
+                                                <span class="pill stats">Hatchback</span>
+                                                 
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2020 (20) Peugeot 208</h3>
+                                            <h4 class="info-car-second">1.2 PureTech 100 GT-Line</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <!-- <h4 class="full-price">£23,300</h4> -->
+                                            <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4>
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">Used</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">325 miles</span>
+                                                <span class="pill stats">EV</span>
+                                                <span class="pill stats">Automatic</span>
+                                                <span class="pill stats">Hatchback</span>   
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image3.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image3.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image3.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2019 (19) Renault Zoe</h3>
+                                            <h4 class="info-car-second">i R135 Rapid Charge ZE50</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <h4 class="full-price">£23,300</h4>
+                                            <!-- <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4> -->
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">New</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">Petrol</span>
+                                                <span class="pill stats">Automatic</span>
+                                                <span class="pill stats">Hatchback</span>
+                                                 
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2020 (20) Peugeot 208</h3>
+                                            <h4 class="info-car-second">1.2 PureTech 100 GT-Line</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <!-- <h4 class="full-price">£23,300</h4> -->
+                                            <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4>
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="card form">
+                                <div class="inside light1-bg h-100">
+                                    <h3 class="text-center">Value your car</h3>
+                                    <p class="text-center">Find out the value of your car in just a few minutes.</p>
+                                    <form action="" method="post">
+                                        <div class="inside w-100">
+                                            <label for="vrm">VRM <span>*</span></label>
+                                            <input data-val="true"  id="vrm" name="vrm" required="true" type="number" value="" placeholder="Enter VRM">
+                                        </div>
+                                        <div class="inside w-100">
+                                            <label for="mileage">Mileage <span>*</span></label>
+                                            <input data-val="true" id="mileage" name="mileage" required="true" type="number" value="" placeholder="Enter mileage">
+                                        </div>
+                                        <button class="cta form-submit w-100" type="submit">Value my car</button>
+                                    </form>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">Used</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">325 miles</span>
+                                                <span class="pill stats">EV</span>
+                                                <span class="pill stats">Automatic</span>
+                                                <span class="pill stats">Hatchback</span>   
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2014 (64) Mercedes-Benz</h3>
+                                            <h4 class="info-car-second">CLA 250e Coupe Shooting Break</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <h4 class="full-price">£23,300</h4>
+                                            <!-- <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4> -->
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">Used</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">325 miles</span>
+                                                <span class="pill stats">EV</span>
+                                                <span class="pill stats">Automatic</span>
+                                                <span class="pill stats">Hatchback</span>   
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image3.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image3.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image3.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2019 (19) Renault Zoe</h3>
+                                            <h4 class="info-car-second">i R135 Rapid Charge ZE50</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <h4 class="full-price">£23,300</h4>
+                                            <!-- <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4> -->
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">Used</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">325 miles</span>
+                                                <span class="pill stats">EV</span>
+                                                <span class="pill stats">Automatic</span>
+                                                <span class="pill stats">Hatchback</span>   
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2014 (64) Mercedes-Benz</h3>
+                                            <h4 class="info-car-second">CLA 250e Coupe Shooting Break</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <h4 class="full-price">£23,300</h4>
+                                            <!-- <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4> -->
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">New</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">Petrol</span>
+                                                <span class="pill stats">Automatic</span>
+                                                <span class="pill stats">Hatchback</span>
+                                                 
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2020 (20) Peugeot 208</h3>
+                                            <h4 class="info-car-second">1.2 PureTech 100 GT-Line</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <!-- <h4 class="full-price">£23,300</h4> -->
+                                            <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4>
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">Used</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">32k miles</span>
+                                                <span class="pill stats">Hybrid</span>
+                                                <span class="pill stats">Manual</span>
+                                                <span class="pill stats">SUV</span>   
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2014 (64) Mercedes-Benz</h3>
+                                            <h4 class="info-car-second">CLA 250e Coupe Shooting Break</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <h4 class="full-price">£23,300</h4>
+                                            <!-- <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4> -->
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">New</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">Petrol</span>
+                                                <span class="pill stats">Automatic</span>
+                                                <span class="pill stats">Hatchback</span>
+                                                 
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image2.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2020 (20) Peugeot 208</h3>
+                                            <h4 class="info-car-second">1.2 PureTech 100 GT-Line</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <!-- <h4 class="full-price">£23,300</h4> -->
+                                            <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4>
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="inside">
+                                    <div class="swiper mySwiper">
+                                        <div class="wrapper-state flex-container flex-wrap flex-direction-column justify-content-space-between">
+                                            <span class="pill state">Used</span>
+                                            <div class="inside flex-container flex-wrap-reverse">
+                                                <span class="pill stats">325 miles</span>
+                                                <span class="pill stats">EV</span>
+                                                <span class="pill stats">Automatic</span>
+                                                <span class="pill stats">Hatchback</span>   
+                                            </div>
+                                        </div>
+                                        <div class="swiper-wrapper">
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image3.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class="inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image3.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                            <div class=" inside flex-container flex-wrap align-content-center swiper-slide" style="background:url('src/image3.png') no-repeat center center; background-size:cover;">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-holder inside">
+                                            <div class="swiper-button-next"></div>
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text-section inside">
+                                        <div class="info-make inside flex-container flex-wrap justify-content-space-between">
+                                            <h3 class="info-car-primary">2019 (19) Renault Zoe</h3>
+                                            <h4 class="info-car-second">i R135 Rapid Charge ZE50</h4>
+                                            <div class="favourite">
+                                                <i class="far fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info-price inside flex-container flex-wrap justify-content-left">
+                                            <h5 class="multiple-payments"><span>£550.90 </span> /mo (PCP)</h5>
+                                            <h4 class="full-price">£23,300</h4>
+                                            <!-- <h4 class="sale">£23,300</h4>
+                                            <h4 class="old-price">£23,300</h4> -->
+                                            <a href="#">Calculate finance</a>
+                                            <button class="cta car">View</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="module nav-cards">
+                        <div class="w-100">
+                            <div class="inside flex-container flex-wrap justify-content-space-between align-items-center">
+                                <a class="module back-to-top" href="#" title="Back to the top">Back to top <i  aria-hidden="true"></i></a>
+
+                                <div class="module pagination flex-container flex-wrap justify-content-center">
+                                    <a href="#" class="previous"><i class="fas fa-angle-left"></i></a>
+                                    <a href="#" class="active">1</a>
+                                    <a href="#">2</a>
+                                    <a href="#">3</a>
+                                    <a href="#" class="next"><i class="fas fa-angle-right"></i></a>
+                                    <a href="#" class="last"><i class="fas fa-angle-double-right"></i></a>
+                                </div>
+            
+                                <div class="module sorting">
+                                    <div class="w-100 inside">
+                                        <details>
+                                            <summary>Sort</summary>
+                                            <ul>
+                                                <li>Lowest price</li>
+                                                <li>Highest price</li>
+                                                <li>Popular</li>
+                                            </ul>
+                                        </details>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module finance light1-bg">
+                        <div class="w-100">
+                            <div class="inside">
+                                <div class="finance-short flex-container">
+                                    <p>
+                                        <b>Representative example:</b> Borrowing £11,790.00 over 4 years with a representative APR of 7.9 %, an annual interest rate of 4.08 % (Fixed) and a deposit of £500.00, the amount payable would be £273.59 per month, with a total cost of credit of £1,843.32 and a total amount payable of £13,633.32.
+                                    </p>
+                                    <button class="cta hide-finance white-bg active">
+                                        <span class="inside">
+                                            <span class="w-auto hide">Hide breakdown </span>
+                                            <span class="w-auto show">Show breakdown </span>
+                                            <i class="fas fa-angle-down"></i></span>
+                                    </button>
+                                </div>
+                                <div class="finance-breakdown module tabs active">
+                                    <div class="nav-tab-wrapper inside flex-container flex-wrap justify-content-space-between">
+                                        <a href="#tab-1" class="nav-tab active">
+                                            Personal Contract Purchase
+                                        </a>
+                                        <a href="#tab-2" class="nav-tab">
+                                            Hire Purchase
+                                        </a>
+                                    </div>
+                                    <div class="wrapper-tabs inside">
+                                        <section id="tab-1" class="tab-content inside am-background-grey active">
+                                            <div class="module info-cards module icon-cards row inside flex-container justify-content-space-between flex-wrap">
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>48 monthly payments</h5>
+                                                            <h4>£157.25</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Cash price</h5>
+                                                            <h4>£9,998.00</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Customer deposit</h5>
+                                                            <h4>£250.00</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Amount of credit</h5>
+                                                            <h4>£11,980.75</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>APR</h5>
+                                                            <h4>7.9%</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Term</h5>
+                                                            <h4>48 months</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Total amount payable</h5>
+                                                            <h4>£12,163.72</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Rate of interest (fixed)</h5>
+                                                            <h4>4.08% PA</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Annual mileage</h5>
+                                                            <h4>8,000</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Optional final payment</h5>
+                                                            <h4>£3,888.04</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section id="tab-2" class="tab-content inside am-background-grey ">
+                                            <div class="module info-cards module icon-cards row inside flex-container justify-content-space-between flex-wrap">
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Term</h5>
+                                                            <h4>48 months</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Total amount payable</h5>
+                                                            <h4>£12,163.72</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Rate of interest (fixed)</h5>
+                                                            <h4>4.08% PA</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Annual mileage</h5>
+                                                            <h4>8,000</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Optional final payment</h5>
+                                                            <h4>£3,888.04</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>48 monthly payments</h5>
+                                                            <h4>£157.25</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Cash price</h5>
+                                                            <h4>£9,998.00</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Customer deposit</h5>
+                                                            <h4>£250.00</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>Amount of credit</h5>
+                                                            <h4>£11,980.75</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col w-20 inside">
+                                                    <div class="card">
+                                                        <div class="inside">
+                                                            <h5>APR</h5>
+                                                            <h4>7.9%</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+    <footer>
+        <div class="module footer-up dark2-bg">
+            <div class="w-1440">
+                <div class="inside flex-container flex-wrap justify-content-space-between">
+                    <div class="module footer-static">
+                        <section class="inside w-15">
+                            <div class="pic-holder logo">
+                                <img src="src/logo placeholder.svg" alt="logo" >
+                            </div>
+                        </section>
+                        <section class="inside w-45">
+                            <h4 class="inside w-100">Branch Details</h4>
+                            <div class="inside w-100 footer-branch-wrapper">
+                                <div class="inside w-50 flex-container flex-direction-column justify-content-space-between">
+                                    <h5 class="text-disabled">address</h5>
+                                    <p>101 Business Street<br>
+                                        Business Town<br>
+                                        Business County<br>
+                                        BU51 N55</p>
+                                </div>
+                                <div class="inside w-50 flex-container flex-direction-column justify-content-space-between">
+                                    <h5 class="text-disabled">Opening times</h5>
+                                    <div class="">
+                                        <span class="inside flex-container justify-content-space-between">
+                                            <p>Weekdays</p>
+                                            <p>09:00 - 18:00</p>
+                                        </span>
+                                        <span class="inside flex-container justify-content-space-between">
+                                            <p>Saturday</p>
+                                            <p>10:00 - 17:00</p>
+                                        </span>
+                                        <span class="inside flex-container justify-content-space-between">
+                                            <p>Sunday</p>
+                                            <p>10:00 - 16:00</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inside w-100 footer-branch-wrapper">
+                                <div class="inside w-50 contacts flex-container justify-content-space-between flex-wrap">
+                                    <h5 class="text-disabled">Telephone</h5>
+                                    <a href="callto:+01234 567890" title="Call us"  title="Call us">01234 567890</a>
+                                </div>
+                                <div class="inside w-50 contacts flex-containerjustify-content-space-between flex-wrap">
+                                    <h5 class="text-disabled">Email</h5>
+                                    <a href="mailto:enquiries@cardealer.uk" title="Email us" title="Email us">enquiries@cardealer.uk</a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="inside w-25">
+                            <h4>Popular brands</h4>
+                            <div class="inside w-50 flex-container flex-direction-column justify-content-space-between">
+                                <a href="#"  alt="Audi">Audi</a>
+                                <a href="#"  alt="BMW">BMW</a>
+                                <a href="#"  alt="Fiat">Fiat</a>
+                                <a href="#"  alt="Land Rover">Land Rover</a>
+                                <a href="#" alt="Mercedes-Benz">Mercedes-Benz</a>
+                            </div>
+                            <div class="inside w-50 flex-container flex-direction-column justify-content-space-between">
+                                <a href="#"  alt="Mini">Mini</a>
+                                <a href="#"  alt="Peugeot">Peugeot</a>
+                                <a href="#"  alt="SEAT">SEAT</a>
+                                <a href="#"  alt="Vauxhall">Vauxhall</a>
+                                <a href="#"  alt="Volkswagen">Volkswagen</a>
+                            </div>
+                        </section>
+                        <section class="inside w-15">
+                            <h4>Site map</h4>
+                            <div class="inside flex-container flex-direction-column justify-content-space-between">
+                                <a href="#"  alt="Home">Home</a>
+                                <a href="#"  alt="Our cars">Our cars</a>
+                                <a href="#"  alt="Sell your car">Sell your car</a>
+                                <a href="#"  alt="Apply for finance">Apply for finance</a>
+                                <a href="#"  alt="About us">About us</a>
+                                <a href="#"  alt="Contact">Contact</a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="module footer-responsive">
+                    <section class="inside w-100">
+                        <div class="pic-holder logo">
+                            <img src="src/logo placeholder.svg" alt="logo" >
+                        </div>
+                        <div class="flex-container flex-wrap justify-content-center">
+                            <a href="mailto:enquiries@cardealer.uk" title="Email us" class="cta header" title="Email us">Email us</a>
+                            <a href="callto:+01234 567890" title="Call us" class="cta header" title="Call us">Call us</a>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="inside footer-filter flex-container  justify-content-space-between align-items-center">
+                            <h4 class="inside w-100">Branch Details</h4>
+                            <span class="open"><i class="fas fa-plus" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="inside footer-content">
+                            <div class="inside w-100 footer-branch-wrapper">
+                                <div class="inside w-50 flex-container flex-direction-column justify-content-space-between">
+                                    <h5 class="text-disabled">address</h5>
+                                    <p>101 Business Street<br>
+                                        Business Town<br>
+                                        Business County<br>
+                                        BU51 N55</p>
+                                </div>
+                                <div class="inside w-50 flex-container flex-direction-column justify-content-space-between">
+                                    <h5 class="text-disabled">Opening times</h5>
+                                    <div class="">
+                                        <span class="inside flex-container justify-content-space-between">
+                                            <p>Weekdays</p>
+                                            <p>09:00 - 18:00</p>
+                                        </span>
+                                        <span class="inside flex-container justify-content-space-between">
+                                            <p>Saturday</p>
+                                            <p>10:00 - 17:00</p>
+                                        </span>
+                                        <span class="inside flex-container justify-content-space-between">
+                                            <p>Sunday</p>
+                                            <p>10:00 - 16:00</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inside w-100 footer-branch-wrapper">
+                                <div class="inside w-50 contacts flex-container justify-content-space-between flex-wrap">
+                                    <h5 class="text-disabled">Telephone</h5>
+                                    <a href="callto:+01234 567890" title="Call us"  title="Call us">01234 567890</a>
+                                </div>
+                                <div class="inside w-50 contacts flex-containerjustify-content-space-between flex-wrap">
+                                    <h5 class="text-disabled">Email</h5>
+                                    <a href="mailto:enquiries@cardealer.uk" title="Email us" title="Email us">enquiries@cardealer.uk</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="inside footer-filter flex-container  justify-content-space-between align-items-center">
+                            <h4 class="inside w-100">Popular brands</h4>
+                            <span class="open"><i class="fas fa-plus" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="inside footer-content">
+                            <div class="inside w-50 flex-container flex-direction-column justify-content-space-between">
+                                <a href="#"  alt="Audi">Audi</a>
+                                <a href="#"  alt="BMW">BMW</a>
+                                <a href="#"  alt="Fiat">Fiat</a>
+                                <a href="#"  alt="Land Rover">Land Rover</a>
+                                <a href="#" alt="Mercedes-Benz">Mercedes-Benz</a>
+                            </div>
+                            <div class="inside w-50 flex-container flex-direction-column justify-content-space-between">
+                                <a href="#"  alt="Mini">Mini</a>
+                                <a href="#"  alt="Peugeot">Peugeot</a>
+                                <a href="#"  alt="SEAT">SEAT</a>
+                                <a href="#"  alt="Vauxhall">Vauxhall</a>
+                                <a href="#"  alt="Volkswagen">Volkswagen</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="inside footer-filter flex-container  justify-content-space-between align-items-center">
+                            <h4 class="inside w-100">Site map</h4>
+                            <span class="open"><i class="fas fa-plus" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="inside footer-content">
+                            <div class="inside flex-container flex-direction-column justify-content-space-between">
+                                <a href="#"  alt="Home">Home</a>
+                                <a href="#"  alt="Our cars">Our cars</a>
+                                <a href="#"  alt="Sell your car">Sell your car</a>
+                                <a href="#"  alt="Apply for finance">Apply for finance</a>
+                                <a href="#"  alt="About us">About us</a>
+                                <a href="#"  alt="Contact">Contact</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="module footer-down dark1-bg">
+            <div class="w-1440">
+                <div class="inside">
+                    <div class="module footer-static">
+                        <section class="inside w-40">
+                            <h5 class="text-disabled">Company info</h5>
+                            <p>Registered in England and Wales.</p>
+                            <p>Registered No: 00000000 | VAT No: 000 0000 00</p>
+                            <p>Registered Office: 101 Business Street, Business Town, Business County BU51 N55.</p>
+                        </section>
+                        <section class="inside w-60">
+                            <h5 class="text-disabled" >Financial disclosure</h5>
+                            <p>CarDealerUK Limited act as a credit broker and not a lender. Finance is Subject to status. We are authorised and regulated by the Financial Conduct Authority under firm reference number 000000. We work with a number of carefully selected credit providers who may be able to offer you finance for your purchase. We may receive a commission payment from the finance provider if you decide to enter into an agreement with them. If you would like to know how we handle complaints, please ask for a copy of our complaints procedure. You can also find information about referring a complaint to the <a class="brand-primary" href="#" target="_blank" alt="Financial Ombudsman Service (FOS)">Financial Ombudsman Service (FOS)</a>.</p>
+                        </section>
+                    </div>
+                    <div class="module footer-responsive">
+                        <section>
+                            <div class="inside footer-filter flex-container  justify-content-space-between align-items-center">
+                                <h4 class="inside w-100">Company info</h4>
+                                <span class="open"><i class="fas fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="inside footer-content">
+                                <p>Registered in England and Wales.</p>
+                                <p>Registered No: 00000000 | VAT No: 000 0000 00</p>
+                                <p>Registered Office: 101 Business Street, Business Town, Business County BU51 N55.</p>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="inside footer-filter flex-container  justify-content-space-between align-items-center">
+                                <h4 class="inside w-100">Financial disclosure</h4>
+                                <span class="open"><i class="fas fa-plus" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="inside footer-content">
+                                <p>CarDealerUK Limited act as a credit broker and not a lender. Finance is Subject to status. We are authorised and regulated by the Financial Conduct Authority under firm reference number 000000. We work with a number of carefully selected credit providers who may be able to offer you finance for your purchase. We may receive a commission payment from the finance provider if you decide to enter into an agreement with them. If you would like to know how we handle complaints, please ask for a copy of our complaints procedure. You can also find information about referring a complaint to the <a class="brand-primary" href="#" target="_blank" alt="Financial Ombudsman Service (FOS)">Financial Ombudsman Service (FOS)</a>.</p>
+                            </div>
+                        </section>
+                    </div>
+                    <section class="footer-legal inside">
+                        <p class="w-33">Powered by <a href="https://www.nexuspoint.co.uk/apex-software" target="_blank" alt="Nexus Point Apex">Nexus Point Apex</a></p>
+                        <div class="inside w-66 float-right flex-container justify-content-end flex-wrap">
+                            <span>
+                                <a href="#" target="_blank" alt="Terms and conditions">Terms and conditions</a>
+                                 | &nbsp; 
+                            </span>
+                            <span>
+                                <a href="#" target="_blank" alt="Privacy policy"> Privacy policy</a> | &nbsp; 
+                            </span>
+                            <span>
+                                <a href="#" target="_blank" alt="Site map"> Site map</a> | &nbsp; 
+                            </span>
+                            <span>
+                                <a href="#" target="_blank" alt="Cookie policy"> Cookie policy</a>
+                            </span>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
